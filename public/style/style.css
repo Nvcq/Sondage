@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Space Grotesk', sans-serif;
+    
+}
+header{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
+/* ------------ PAGE INDEX ET HEADER ------------*/
+ul{
+    margin-top: 20px;
+  
+}
+li{
+    display: inline;
+    padding: 30px;
+}
+
+li a{
+    text-align: center;
+    text-decoration: none;
+    color: #FF005E;
+}
+ul li:nth-child(5),ul li:nth-child(6) { 
+float:right;
+display: inline;
+padding: 10px;
+padding-top: 0px;
+
+   
+ }
+ section{
+background: linear-gradient(to bottom right,#f0da4b,#ff005E);
+
+ }
+  article{
+    width: 80%;
+    margin: auto;
+  }
+.section1 h1{
+    padding: 90px;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    
+}
+h2{
+    padding: 30px 30px 30px 70px;
+   
+    font-size: 1.5em;
+    background-color: white;
+   
+}
+.sondage{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+padding: 30px;
+
+}
+
+.questions{
+    width: 15%;
+    padding: 50px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 50px;
+    text-align: center;
+    font-size: 1em;
+
+  
+}
+.questions #q{
+    font-weight: bold;
+}
+.questions a {
+    font-style: italic;
+}
+.amis{
+    display: flex;
+    font-size: 0.8em;
+    justify-content: center;
+    align-items: center;
+}
+
+.amis p{
+    position: relative;
+    bottom: 15px;
+}
+.amis img{
+    width: 20%;
+    border-radius: 90%;
+    position: relative;
+    right: 20px;
+    
+}
+
+.hover{
+    box-shadow: 0px 12px 12px black;
+    position: relative;
+    top: 5px;
+}
+
+footer{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color:#ff005E;
+    
+ 
+}
+footer p {
+    padding: 50px;
+    font-size: 2em;
+}
+
+/*---------- PAGE CONNECT --------*/
+#fond{
+    background: linear-gradient(to bottom right,#f0da4b,#ff005E); 
+    padding: 100px;
+}
+.page{
+    background-color: white;
+    width: 50%;
+  margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+
+
+}
+.page h1{
+    text-align: center;
+    padding: 30px;
+    width: 50%;
+    margin: auto;
+    
+   
+
+}
+.form{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.form #rep {
+    width: 100%;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+.form #centerInput {
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.form #voted {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.form #reph1 {
+    padding-bottom: 50px;
+}
+.btn{
+    border: solid 3px black;
+    border-radius: 10px;
+    text-align: center;
+   margin: 6px;
+   padding: 6px;
+
+}
+#connect{
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    
+}
+#signIn{
+    border: solid 3px #ff005E;
+    background-color: #ff005E;
+    border-radius: 10px;
+    text-align: center;
+margin: auto;
+margin-top: 15px;
+   padding: 6px;
+   width: 30%;
+color: white;
+}
+/*------------ PAGE RÉSULTAT ----------*/ 
+.section1 ul{
+ display: flex;
+ flex-direction: column;
+ align-items: left;
+ justify-content: left;
+}
+.section1 li{
+    padding: 10px;
+}
+#mamie{
+   width: 20%;
+    border-radius: 90%;
+    position: relative;
+    right: 60px; 
+    margin-bottom: 0px;
+    padding-top: 15px;
+}
+#homme{
+    width: 20%;
+     border-radius: 90%;
+     position: relative;
+     right: 60px; 
+     margin-bottom: 0px;
+     padding-top: 15px;
+ }
+
+.humainText{
+    position: relative;
+    bottom: 25px;
+    font-size: 0.5em;
+}
+.classement{
+    height: 550px;
+}
+.tableau{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 50%;
+   margin: auto;
+   margin-top: 70px;
+
+background-color: white;
+    border: solid 1px black;
+    box-shadow: 0px 1px 15px black;
+    border-radius: 10px;
+    
+  
+}
+.tableau ul{
+    padding: 30px;
+    
+}
+
+
+/*------------------ PROFIL ----------------*/
+
+
+.profil{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.modif{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    padding: 50px;
+}
+.infoProfil{
+    text-align: center;
+    margin:40px;
+    padding: 60px;
+    width: 100%;
+}
+.infoProfil p{
+    padding: 30px;
+}
+.modif input{
+
+    width: 40%;
+    margin: auto;
+    margin-bottom: 40px;
+  
+}
+.modif button{
+    width: 40%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.modifProfil{
+    text-align: center;
+    margin-top: 97px;
+    width: 100%;
+}
+
+.modifprofil{
+    background: linear-gradient(to bottom right,#f0da4b,#ff005E); 
+}
+/*---------------------------------ERREUR------*/
+
+#error{
+  width: 100%;
+  margin: auto;
+  background: linear-gradient(to bottom right,#f0da4b,#ff005E); 
+  text-align: center;   
+}
+
+#error h1{
+    text-align: center;
+    padding: 2%;
+}
+#error img{
+    display: block;
+    margin: 40px auto 40px auto;
+    width: 20%;
+    padding-bottom: 100px;
+    user-select: none;
+}
+.menu{
+    width: 20%;
+    padding: 10px;
+    margin: 80px;
+    border: 2px solid black;
+    border-radius: 36px;
+    background-color: white;
+}
+/*------------------------------ Sondage-----------------*/
+
+#sondageqst h1{
+    text-align: center;
+    padding: 15%;
+}
+
+#sondageqst{
+    background: linear-gradient(to bottom right,#f0da4b,#ff005E); 
+    width: 100%;
+    margin: auto; 
+}
+#sondageqst label{
+    text-align: center;
+}
+#sondageqst .btn{
+   align-items: center;
+   margin-left: 355px;
+}
+#valide{
+    width: 40%;
+    padding: 10px;
+    margin: 100px auto;
+    border: 2px solid black;
+    border-radius: 36px;
+    background-color: white;
+  
+    
+}
+
+/*-------------- reponse----------*/ 
+
+.formulaire p {
+  
+    text-align: center;
+}
+.formulaire{
+    background-color: white;
+    border-radius: 26px;
+    width: 20%;
+    margin: auto;
+    padding: 4%;
+    
+}
+#sondagereponse{
+    background: linear-gradient(to bottom right,#f0da4b,#ff005E); 
+    width: 100%;
+    margin: auto; 
+    padding-top:50px;
+    padding-bottom:50px;
+    text-align: center;
+
+}
+
+#sondagereponse h1{
+    text-align: center;
+    padding: 8%;
+}
+
+a{
+    text-decoration: none;
+}
+
+#titre{
+    margin: 20px auto;
+    text-align: left;
+}
+
+/*------------------------ AMIS----------*/
+
+.ami{
+display: flex;
+
+align-items: center;
+justify-content: center;
+
+
+}
+
+.mesAmi {
+
+    text-align: center;
+    margin: 200px 150px;
+}
+.mesAmi li{
+    padding: 0px;
+ 
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+   
+     
+}
+.mesAmi h1, p, a{
+    padding: 10px;
+}
+
+.plusami label{
+   padding: 5px;
+}
+.plusami input{
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid black;
+
+ }
+
+h3{
+   margin: 30px;
+   font-size: 100px;
+   background:linear-gradient(to bottom right,#f0da4b,#ff005E); 
+   text-align: center;
+}

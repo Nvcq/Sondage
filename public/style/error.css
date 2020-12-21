@@ -1,0 +1,14 @@
+h2, h1{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    padding: 60px;
+
+ }
+ img{
+    width: 30%;
+    padding: 40px 0px;
+margin: auto;
+display: block;
+}

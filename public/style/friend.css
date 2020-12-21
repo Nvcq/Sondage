@@ -1,0 +1,66 @@
+h3{
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Nunito', sans-serif;
+}
+.ami{
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    text-decoration: none;
+    padding-top: 20px;
+    color: #9AB1F7;
+}
+
+.amigos a{
+    color: black;
+}
+footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.ajoutAmi{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.plusami{
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    font-family: 'Nunito', sans-serif;
+}
+.btn {
+    border: 3px solid #19127E;
+    background-color: #9AB1F7;
+    color: #19127E;;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    width: 70%;
+    margin: 20px;
+    margin-left: 60px;
+
+}
+.menu{
+    width: 40%;
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 36px;
+    background-color: white;
+    margin-left: 140px;
+}
+
+#suppr {
+    color: #000000;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+#mail {
+    padding-bottom: 10px;
+}

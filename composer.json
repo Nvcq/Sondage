@@ -1,0 +1,19 @@
+{
+    "name": "nicol/sondage3",
+    "authors": [
+        {
+            "name": "Nicolas Mopin",
+            "email": "Nicolas.mopin@edu.devinci.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Controller\\": "src/controllers",
+            "Model\\": "src/models",
+            "Core\\": "core",
+            "Core\\Controller\\": "core/controller",
+            "Core\\Model\\": "core/model"
+        }
+    },
+    "require": {}
+}

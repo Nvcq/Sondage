@@ -1,0 +1,45 @@
+.form {
+    width: 50%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito', sans-serif;
+  
+    padding: 20px;
+
+
+}
+.btn {
+    border: 3px solid #19127E;
+    background-color: #9AB1F7;
+    color: #19127E;;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    width: 50%;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.menu{
+    width: 40%;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 36px;
+    background-color: white;
+    margin-left: 220px;
+    margin-bottom: 20px;
+}
+h1{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+img{
+    width: 30%;
+padding-bottom: 20px;
+margin: auto;
+display: block;
+}

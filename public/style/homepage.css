@@ -1,0 +1,47 @@
+h2, h1{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    padding: 60px;
+
+ }
+ .sondage{
+     width: 75%;
+     margin: 0 auto;
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+     justify-content: space-around;
+
+ }
+ .questions{
+     width: 20%;
+     margin-right: 50px;
+     margin-bottom: 75px;
+    text-align: center;
+     background-color: #9AB1F7;
+     font-family: 'Nunito', sans-serif;
+     color: #ffffff;
+     padding: 20px;
+     border-radius: 20px;
+     box-shadow: 60px -16px #CC605A;
+ }
+
+ #q {
+     color: #CC605A;
+     font-weight: bold;
+ }
+
+ hr {
+     width: 50%;
+     margin: 0 auto;
+     border: 1px solid #CC605A;
+     margin-bottom: 10px;
+ }
+
+h3 {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    color: blue;
+}

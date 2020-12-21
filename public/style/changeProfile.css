@@ -1,0 +1,41 @@
+.modifprofil{
+    width: 80%;
+    margin: auto;
+
+}
+
+.modif{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+border: 3px solid #19127E;
+background-color: #9AB1F7;
+color: #19127E;;
+border-radius: 10px;
+text-align: center;
+padding: 20px;
+width: 50%;
+margin: 10px;
+}
+h1{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+.menu{
+    width: 40%;
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 36px;
+    background-color: white;
+}
+
+#btnEnd {
+    margin-bottom: 100px;
+}
